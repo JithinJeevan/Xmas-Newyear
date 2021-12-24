@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(https://38.media.tumblr.com/tumblr_m00c3czJkM1qbukryo1_500.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    overflow: hidden;
+  }
+
+
+  #dcor1 img{
+      height: 30px;
+      width: 30px;
+  }
+  #dcor2 img{
+    position: absolute;
+      left: 5em;
+    height: 60px;
+    width: 60px;
+}
+
+  #star1{
+      position:absolute;
+      left: 20em;
+      top:2em;
+  }
+  #star2{
+    position:absolute;
+    
+    top:5em;
+    left: 5em;
+}
+
+.allstars {
+    position: absolute;
+    left: 55em;
+    top: 1em;
+}
+.allstars1 {
+    position: absolute;
+    
+    top: 0px;
+}
+.top img{
+    height: 15em;
+    width: 28em;
+}
+
+.allstars3 {
+    position:absolute;
+    left: 30em;
+    top: 0px;
+}
+#tree img{
+    position: absolute;
+    height: 25em;
+    width: 25em;
+    top: 18.5em;
+   
+}
+
+#ball img{
+    position: absolute;
+    height: 12em;
+    width: 12em;
+    top: 32em;
+   
+}
+
+
+#santa img{
+    position: absolute;
+    height:25em;
+    width: 25em;
+    top: 19em;
+    left: 22em;
+   
+}
+
+/* Writing */
+
+@import url("//fonts.googleapis.com/css?family=Pacifico&text=Pure");
+@import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
+@import url("//fonts.googleapis.com/css?family=Kaushan+Script&text=!");
+
+
+.stage {
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 18em;
+  left: 0;
+  perspective: 9999px;
+  transform-style: preserve-3d;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+  animation-fill-mode: forwards;
+  transform: rotateY(40deg) rotateX(33deg) translateZ(0);
+}
+
+.layer:after {
+  font: 50px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
+  content: "MERRY X'MAS\a\a & \a\a HAPPY NEWYEAR!!!";
+  white-space: pre;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  color: whitesmoke;
+  letter-spacing: -2px;
+  text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.layer:nth-child(1):after {
+  transform: translateZ(0px);
+}
+
+.layer:nth-child(2):after {
+  transform: translateZ(-1.5px);
+}
+
+.layer:nth-child(3):after {
+  transform: translateZ(-3px);
+}
+
+.layer:nth-child(4):after {
+  transform: translateZ(-4.5px);
+}
+
+.layer:nth-child(5):after {
+  transform: translateZ(-6px);
+}
+
+.layer:nth-child(6):after {
+  transform: translateZ(-7.5px);
+}
+
+.layer:nth-child(7):after {
+  transform: translateZ(-9px);
+}
+
+.layer:nth-child(8):after {
+  transform: translateZ(-10.5px);
+}
+
+.layer:nth-child(9):after {
+  transform: translateZ(-12px);
+}
+
+.layer:nth-child(10):after {
+  transform: translateZ(-13.5px);
+}
+
+.layer:nth-child(11):after {
+  transform: translateZ(-15px);
+}
+
+.layer:nth-child(12):after {
+  transform: translateZ(-16.5px);
+}
+
+.layer:nth-child(13):after {
+  transform: translateZ(-18px);
+}
+
+.layer:nth-child(14):after {
+  transform: translateZ(-19.5px);
+}
+
+.layer:nth-child(15):after {
+  transform: translateZ(-21px);
+}
+
+.layer:nth-child(16):after {
+  transform: translateZ(-22.5px);
+}
+
+.layer:nth-child(17):after {
+  transform: translateZ(-24px);
+}
+
+.layer:nth-child(18):after {
+  transform: translateZ(-25.5px);
+}
+
+.layer:nth-child(19):after {
+  transform: translateZ(-27px);
+}
+
+.layer:nth-child(20):after {
+  transform: translateZ(-28.5px);
+}
+
+.layer:nth-child(n+10):after {
+  -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
+}
+
+.layer:nth-child(n+11):after {
+  -webkit-text-stroke: 15px dodgerblue;
+  text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+}
+
+.layer:nth-child(n+12):after {
+  -webkit-text-stroke: 15px #0077ea;
+}
+
+.layer:last-child:after {
+  -webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);
+}
+
+.layer:first-child:after {
+  color: #fff;
+  text-shadow: none;
+}
+
+@keyframes ಠ_ಠ {
+  100% {
+    transform: rotateY(-40deg) rotateX(-43deg);
+  }
+}
+
+#bday img{
+
+    position: absolute;
+    height: 250px;
+    width: 250px;
+  
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    
+}
+
+.norka{
+    display:flexbox;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.014);
+  
+}
+
+.norka p {
+    position: relative;
+    left: 20em;
+    top: 1.5em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+
+#lum{
+    position: absolute;
+   left: 20em;
+   font-size: 30px;
+   color: #0077ea;
+   top: 9em;
+
+}
+
+#footr{
+    color: white;
+    position: fixed;
+    top: 40em;
+    left: 40em;
+}
+button {
+
+    position: fixed;
+    
+    
+    background-color: rgba(50, 16, 240, 0.418);
+    color:white;
+    height: 40px;
+    width: 150px;
+    top: 42em;
+    left: 75em;
+    
+    border-radius: 70%;
+    
+}
+#btn {
+
+    position: absolute;
+    
+    
+    background-color: rgba(44, 9, 245, 0.466);
+    color:white;
+    height: 40px;
+    width: 150px;
+    top: 42em;
+    left: 88em;
+    
+    
+    border-radius: 70%;
+}
